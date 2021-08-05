@@ -1,0 +1,14 @@
+
+    [{
+        "nombre":"Pizza",
+        "precio":"$9.99",
+        "url":"images/img2.jpg"
+    },{
+        "nombre":"Pechuga de pollo a la plancha",
+        "precio":"$5.50",
+        "url":"images/img3.jpg"
+    },{
+        "nombre":"Crema de calabaza",
+        "precio":"$2.25",
+        "url":"images/img4.jpg"
+    }]

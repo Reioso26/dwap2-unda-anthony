@@ -1,0 +1,260 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.cont{
+    text-align: center;
+}
+.cont h2{
+    color: white;
+    margin: 0.3em;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+.cont h1{
+    color: white;
+    margin: 0.3em;
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+}
+
+section{
+    margin: 4em;
+}
+img{
+    width: 100%;
+}
+.cont1{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item{
+    position: relative;
+    max-width: 320px;
+    background: #fff;
+    padding: 40px 40px 40px;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.img1:hover{
+    transform: scale(1.2);
+}
+
+.item h2{
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.item h3{
+    color:black;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+}
+
+.sec{
+    margin: 0;
+    background-color:#338033;
+    background-size: 100em;
+    width:auto;
+    height:auto;
+}
+
+.item2{
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.item2 h2{
+    color: white;
+    margin: 0.3em;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.item2 p{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+}
+
+.default{
+    text-align: center;
+    padding: 25px 50px 50px;
+    fonm
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+} 
+
+.cont3{
+    margin: 0;
+    background-color:#338033;
+    padding: 3%;
+    text-align: center;
+}
+.cont3 p{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+}
+
+button {
+    position:sticky;
+    transform: translate(-50, -50);
+   }
+   
+   button {
+    background: none;
+    color: #ccc;
+    width: 240px;
+    height: 80px;
+    border: 1px solid #338033;
+    font-size: 25px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+   }
+   
+   button:focus {
+    outline: none;
+   }
+   
+   button:before {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(255,255,255,.5);
+       width: 60px;
+       height: 100%;
+       left: 0;
+       top: 0;
+       opacity: .5;
+       filter: blur(30px);
+       transform: translateX(-130px) skewX(-15deg);
+   }
+   
+   button:after {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(255,255,255,.2);
+       width: 30px;
+       height: 100%;
+       left: 30px;
+       top: 0;
+       opacity: 0;
+       filter: blur(30px);
+       transform: translateX(-100px) scaleX(-15deg);
+   }
+   
+   button:hover {
+      background: #338033;
+      cursor: pointer;
+   }
+   
+   button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+   }
+   
+   button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+.item2 button {
+    position:sticky;
+    transform: translate(-50, -50);
+   }
+   
+   .item2 button {
+    background: none;
+    color: #ccc;
+    width: 240px;
+    height: 80px;
+    border: 1px solid #fff;
+    font-size: 25px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+   }
+   
+   .item2 button:focus {
+    outline: none;
+   }
+   
+   .item2 button:before {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(255,255,255,.5);
+       width: 60px;
+       height: 100%;
+       left: 0;
+       top: 0;
+       opacity: .5;
+       filter: blur(30px);
+       transform: translateX(-130px) skewX(-15deg);
+   }
+   
+   .item2 button:after {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(255,255,255,.2);
+       width: 30px;
+       height: 100%;
+       left: 30px;
+       top: 0;
+       opacity: 0;
+       filter: blur(30px);
+       transform: translateX(-100px) scaleX(-15deg);
+   }
+   
+   .item2 button:hover {
+      background: #fff;
+      cursor: pointer;
+      color: gray;
+   }
+   
+   .item2 button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+   }
+   
+   .item2 button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
